@@ -9,7 +9,7 @@ bu-button is a button. It has some types such as submit, google and facebook.
 <custom-element-demo>
   <template>
     <script type="module">
-      import 'bu-button.js';
+      import './bu-button.js';
     </script>
     <next-code-block></next-code-block>
   </template>
@@ -37,7 +37,7 @@ npm install --save bu-button
 <html>
   <head>
     <script type="module">
-      import 'bu-button.js';
+      import './bu-button.js';
     </script>
   </head>
   <body>
@@ -53,7 +53,7 @@ npm install --save bu-button
 
 ```
 import {PolymerElement, html} from '@polymer/polymer';
-import 'bu-button.js';
+import './bu-button.js';
 
 class SampleElement extends PolymerElement {
   static get template() {
