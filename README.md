@@ -18,7 +18,6 @@ bu-button is a button. It has some types such as submit, google and facebook.
 -->
 ```html
 <bu-button submit type="button" name="login" text="login"></bu-button>
-<bu-button flat type="button" name="resetPass" text="if you forget your password"></bu-button>
 <bu-button google type="button" text="Google Login"></bu-button>
 <bu-button facebook type="button" text="Facebook Login"></bu-button>
 ```
@@ -42,7 +41,6 @@ npm install --save bu-button
   </head>
   <body>
     <bu-button submit type="button" name="login" text="login"></bu-button>
-    <bu-button flat type="button" name="resetPass" text="if you forget your password"></bu-button>
     <bu-button google type="button" text="Google Login"></bu-button>
     <bu-button facebook type="button" text="Facebook Login"></bu-button>
   </body>
@@ -59,7 +57,6 @@ class SampleElement extends PolymerElement {
   static get template() {
     return html`
       <bu-button submit type="button" name="login" text="login"></bu-button>
-      <bu-button flat type="button" name="resetPass" text="if you forget your password"></bu-button>
       <bu-button google type="button" text="Google Login"></bu-button>
       <bu-button facebook type="button" text="Facebook Login"></bu-button>
     `;

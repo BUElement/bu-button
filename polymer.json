@@ -1,0 +1,35 @@
+{
+    "entrypoint": "index.html",
+    "sources": [
+        "images/**/*"
+    ],
+    "extraDependencies": [
+        "node_modules/@webcomponents/webcomponentsjs/*.js",
+        "!node_modules/@webcomponents/webcomponentsjs/gulpfile.js",
+        "node_modules/@webcomponents/webcomponentsjs/bundles/*.js"
+    ],
+    "builds": [{
+            "name": "es5-bundled",
+            "js": {
+                "minify": true,
+                "compile": true,
+                "transformModulesToAmd": true
+            },
+            "css": {
+                "minify": true
+            },
+            "html": {
+                "minify": true
+            },
+            "bundle": false,
+            "addServiceWorker": true
+        }
+    ],
+    "moduleResolution": "node",
+    "npm": true,
+    "lint": {
+        "rules": [
+            "polymer-3"
+        ]
+    }
+}
