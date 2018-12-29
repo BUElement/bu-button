@@ -1,6 +1,6 @@
 {
   "name": "bu-button",
-  "version": "1.0.1",
+  "version": "1.0.0-rc.1",
   "description": "flat, submit, google, facebook button",
   "main": "bu-button.js",
   "scripts": {
